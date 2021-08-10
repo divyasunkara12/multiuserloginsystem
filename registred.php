@@ -36,9 +36,6 @@
   		<button type="submit" class="btn" name="registred_user">Login</button>
   	</div>
    </center>
-    <p>
-        forgot password? register with other email. <a href="register.php">sign up</a>
-    </p>
      </div>
  </form>
 </body>

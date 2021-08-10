@@ -19,9 +19,7 @@
 <html>
 <head>
 	<title>Home</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body><div class="container d-flex justify-content-center align-items-center">
 <div class="border shadow p-3 rounded">
@@ -38,8 +36,8 @@
       <?php endif ?>
 	<?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-            <p> <a href="index.php?sendmail='1'" style="color: green;">sendmail</a> </p>
-                        <p> <a href="index.php?logout='1'" style="color: green;">logout</a> </p>
+            <p> <a href="index.php?sendmail='1'" style="color: red;">sendmail</a> </p>
+                        <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
                 <?php endif ?>
   </div>
 <?php 
@@ -76,7 +74,10 @@ if(isset($_POST["submit"]))
  }
 }
 ?>  
- <style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <style>
   .box
   {
    max-width:500px;
@@ -84,7 +85,8 @@ if(isset($_POST["submit"]))
    margin: 0 auto;;
   }
   </style>
-<body>
+
+ <body>
   <br/>
   <form method="post" enctype="multipart/form-data">
     <div class="container d-flex justify-content-center align-items-center">
