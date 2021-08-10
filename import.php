@@ -22,7 +22,7 @@ $statement->execute();
   <body>
     <br />
     <div class="container">
-      <h3 align="center">Send Bulk Email using PHPMailer with Ajax PHP</h3>
+      <h3 align="center">Send email</h3>
       <br />
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
