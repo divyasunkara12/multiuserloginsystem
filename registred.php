@@ -36,10 +36,7 @@
   		<button type="submit" class="btn" name="registred_user">Login</button>
   	</div>
    </center>
-     
-    
-
-  	 </div>
+     </div>
  </form>
 </body>
 </html>
