@@ -23,7 +23,7 @@
 </head>
 <body><div class="container d-flex justify-content-center align-items-center">
 <div class="border shadow p-3 rounded">
-  <h3>Home Page</h3>
+  <h3>Admin Page</h3>
   <?php if (isset($_SESSION['success'])) : ?>
       <div class="error success" >
       	<h4>

@@ -46,12 +46,12 @@ $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Speify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'divyasreeramoji92@gmail.com';                 // SMTP username
-$mail->Password = 'madhu890@';                           // SMTP password
+$mail->Username = 'divya******@gmail.com';                 // SMTP username
+$mail->Password = '*****';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587; 
 
-$mail->setFrom('divyasreeramoji92@gmail.com', 'Mailer');
+$mail->setFrom('divya*****@gmail.com', 'Mailer');
 $sql= "SELECT * FROM users WHERE email='".$email."'";
   $rs= mysqli_query($db,$sql);
   $numrows= mysqli_Num_rows($rs);
