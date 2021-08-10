@@ -51,6 +51,7 @@ $statement->execute();
           <tr>
             <td colspan="3"></td>
             <td><button type="button" name="bulk_email" class="btn btn-info email_button" id="bulk_email" data-action="bulk">Send Bulk</button></td></td>
+             <p> <a href="index.php?logout='1'" style="color: blue;">logout</a> </p></div>
           </tr>
         </table>
       </div>
@@ -112,23 +113,6 @@ $(document).ready(function(){
   });
 });
 </script>
-
-   
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-</head>
-<body>
-
-<div class="container d-flex justify-content-center align-items-center">
-<div class="border shadow p-3 rounded">
-  <h3>logout Page</h3>
-   <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p></div>
-  </div>
-</body>
-</html>
 
 
 
