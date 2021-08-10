@@ -40,8 +40,7 @@
               <option value="user">user</option>
             </select>
           </div>
-       
-        <div class="mb-3">
+       <div class="mb-3">
           <label for="password" 
                  class="form-label">Password</label>
           <input type="password" 
