@@ -36,7 +36,7 @@ $mail->Body    = "your email is:'".$row['email']."',your password is: '".$row['p
 
 $mail->AltBody = 'thanku';
 if($mail->send()){
-         echo'you have registered successfully';
+         echo'mail has been sent';
   
   }
   else {
